@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 class DrawerHome extends StatelessWidget {
-  final double appBarHeight;
+  // Widget that builds drawer on appBar.
+
+  final double appBarHeight; //Demanding app bar height in constructor to set DrawerHeader height.
 
   const DrawerHome({Key? key, required this.appBarHeight}) : super(key: key);
 
