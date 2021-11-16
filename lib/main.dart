@@ -1,6 +1,6 @@
 import 'package:banner_prjct/screens/home_screen.dart';
 import 'package:flutter/material.dart';
-
+//main method
 void main() {
   runApp(const MyApp());
 }
@@ -8,7 +8,7 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
+  // Design pattern of our app. (Modify later).
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       routes: {
-        "/": (context) => const HomeScreen(),
+        "/": (context) => const HomeScreen(), // root screen
       },
     );
   }
